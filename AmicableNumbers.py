@@ -36,3 +36,8 @@ for number in range(1, 10000):
 
 print sum_amicable
 print time.time() - start
+
+Output:
+root@luc-pc:/home/lucvutuan/PycharmProjects/Exercises# python AmicableNumbers.py 
+31626
+0.0784718990326
