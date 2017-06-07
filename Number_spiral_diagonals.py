@@ -10,7 +10,7 @@ for n x n spiral which n is odd
 - the bottom right will be equal to (bottom_left - n + 1) = pow(n,2) - 3*n + 3
 - sum all of them we have: 4 * pow(n,2) - 6 * n + 6
 - so we run the loop from 3 to 1001 (increment of 2) and add up the results
-- and add the result to 1 (which is centre of the form
+- and add the result to 1 (which is centre of the form)
 '''
 total = 0
 for n in range(3, 1003, 2):
