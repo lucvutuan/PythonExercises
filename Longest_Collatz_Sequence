@@ -52,7 +52,7 @@ The result is correct, and finishing it in 4.7s is not so bad shot. But then, wh
    - With the key-point number 3: if the number is odd ----> return 1 + collatz_sequence of the number after this. i.e
      if n % 2 == 0: return 1 + collatz(3 * n + 1)
   
-  In python, it should be like:
+  In python, it should be like
 
 ---------------------------------------------------------------
 my_dict = {1: 1}
